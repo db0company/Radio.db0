@@ -97,6 +97,9 @@ echo '</a>'."\n";
 		  echo 'style="display:none;"';
 		echo '>'."\n";
 		while ($filename = readdir($handle))
+		  $songs[] = $filename;
+		sort($songs);
+		foreach ($songs as $filename)
 		{
 		  if ($filename[0] != '.')
 		    {
@@ -120,7 +123,7 @@ echo '</a>'."\n";
 				else
 				  {
 					echo '<img src="img/music.png" alt="folder" /> '."\n";
-				        echo ' '.$filename;
+				        echo ' '.substr($filename, 0, -4);
 					echo ' <a href="?play='.$dir.$filename.'">'."\n";
 					echo '  <img src="img/play.png" alt="play" />'."\n";
 					echo '</a>'."\n";
