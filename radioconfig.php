@@ -42,8 +42,11 @@ function	echodir($dir)
         {
           if (!is_dir($dir.$filename))
 	    {
-              $tab=explode(".", $filename);
-	      $chansons[] = substr($dir, 4).$tab[0];
+	      if (substr($filename, -4) == '.mp3')
+	        {
+                  $tab=explode(".", $filename);
+	      	  $chansons[] = substr($dir, 4).$tab[0];
+		}
 	    }
 	  else
 	    echodir($dir.$filename.'/');
