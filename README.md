@@ -2,7 +2,7 @@
 Radio . db0
 ===========
 
-A simple web interface to listen to music using PHP and Flash
+A simple web interface to listen to music using PHP and Javascript
 
 ## Requirement
 
@@ -30,32 +30,22 @@ into it and his subdirectories.
    Edit the style.css file
    /!\ CSS langage knowledge required
 
-3. Change radio player colors
-
-   edit the radioconfig.php file
-
-4. Change radio backgrounds
-
-   put your jpg files in the 'img' directory and edit the radioconfig.php
-   file (add an element in the array $fonds)
-
-
 Copyright/License
 =================
 
            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
                    Version 2, December 2004
  
-Copyright (C) 2011 db0 <db0company@gmail.com>
+    Copyright (C) 2011 db0 <db0company@gmail.com>
  
-Everyone is permitted to copy and distribute verbatim or modified
-copies of this license document, and changing it is allowed as long
-as the name is changed.
+    Everyone is permitted to copy and distribute verbatim or modified
+    copies of this license document, and changing it is allowed as long
+    as the name is changed.
  
            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
-  TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+      TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
  
- 0. You just DO WHAT THE FUCK YOU WANT TO.
+     0. You just DO WHAT THE FUCK YOU WANT TO.
 
 ## Author
 
